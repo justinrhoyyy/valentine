@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier";
+  background-color: #e9ffe4;
+  color: #a6ff94;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 40px;
+}
+
+
+
+.button {
+  height: 50px;
+  padding: 6px 10px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "courier";
+  font-weight: 900;
+  margin-bottom: 10px;
+  background-color: #e9ffe4;
+  color: #a6ff94;
+  border-radius: 12px;
+  border: 2px solid #96e285;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #a6ff94;
+  color: #e9ffe4;
+  border: 2px solid #a6ff94;
+}
+
